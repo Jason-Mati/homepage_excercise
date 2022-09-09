@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kokni's_Home</title>
+  </head>
+  <body>
+    <div>
+      <h2 class="clock"></h2>
+      <form class="hidden" id="login-form">
+        <input class="inputBox" type="text" placeholder="Write your name" />
+        <button class="btn">Log in</button>
+      </form>
+      <h2 id="greeting"></h2>
+      <h1 class="welcome">Welcome to Kokni's Home</h1>
+      <div class="todo-box">
+        <div>
+          <form id="todo-form">
+            <div class="todo-title">Let's make your "To do list!"</div>
+            <input
+              class="inputBox todo-input"
+              type="text"
+              placeholder="Write a 'to do' and Press Enter"
+              required
+            />
+          </form>
+          <form class="reset">
+            <button class="btn resetBtn" type="submit">Reset</button>
+          </form>
+        </div>
+        <div>
+          <ul id="todo-list"></ul>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div id="quote">
+        <span></span>
+        <span></span>
+      </div>
+      <div id="weather">
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/8cc4a8bd25.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/greetings.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>
